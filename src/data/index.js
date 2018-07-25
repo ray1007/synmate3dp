@@ -52,7 +52,7 @@ export const productData = [
     'product_names': [
 
     ],
-    'ready': false,
+    'ready': true,
   },
 ]
 

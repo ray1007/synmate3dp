@@ -15,6 +15,7 @@ import About from './About'
 import WeaponShelfCategory from './WeaponShelfCategory'
 import BoardGameCategory from './BoardGameCategory'
 import FoxAndSheepGame from './FoxAndSheepGame'
+import IphoneCase from './IphoneCase'
 
 
 import { setLogMsg } from '../actions'
@@ -42,11 +43,12 @@ class App extends Component {
         </AppBar>
 
         <Switch>
-          <Route exact path='/' component={Home}/>
-          <Route path='/about' component={About}/>
+          <Route exact path="/" component={Home}/>
+          <Route path="/about" component={About}/>
           <Route path="/product/weaponShelf" component={WeaponShelfCategory}/>
           <Route exact path="/product/boardGame" component={BoardGameCategory}/>
           <Route path="/product/boardGame/foxAndSheep" component={FoxAndSheepGame}/>
+          <Route path="/product/IphoneCase" component={IphoneCase}/>
         </Switch>
 
         {children}
