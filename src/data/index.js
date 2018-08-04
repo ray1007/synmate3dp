@@ -207,3 +207,22 @@ export const foxSheepGalleryData = [
     'imgPath': '/images/fox_sheep/play2.jpg',
   },
 ]
+
+export const iphoneCaseCustomGalleryData = [
+  {
+    'caption': '個人原創圖樣',
+    'imgPath': '/images/iphone_case/monkey_robot_1.jpg',
+  },
+  {
+    'caption': '個人原創圖樣',
+    'imgPath': '/images/iphone_case/monkey_robot_2.jpg',
+  },
+  {
+    'caption': '英文姓名首字',
+    'imgPath': '/images/iphone_case/name_capitals.jpg',
+  },
+  {
+    'caption': '貼圖角色',
+    'imgPath': '/images/iphone_case/piske.jpg',
+  },
+]
